@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgba(105, 105, 105, 0.747);
+            padding: 8px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.288); /*1- DESLOCAMENTO HORIZONTAL; 2- DESLOCAMENTO VERTICAL; 3- BLUR; 4- SPREAD*/
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(211, 211, 211, 0.548);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Técnologia</p>
+        </section>
+        <section id="noticias">
+
+            <article>
+                <aside>
+                    <h2>Noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem rem odio deserunt dignissimos numquam ducimus nostrum natus, saepe illo accusamus corporis, quas consequuntur totam. Modi quas eius error deserunt atque?</p>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Bruno</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
